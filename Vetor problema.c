@@ -10,18 +10,18 @@ main ()
 
   for (a = 0; a < v; a++)
     {
-      printf ("Digite um nC:mero %i: ", a + 1);
+      printf ("Digite um número %i: ", a + 1);
       scanf ("%i", &n[a]);
     }
 
   for (a = 0; a < v; a++)
     {
-      printf ("\nA ordem dada C) %i: %i", a + 1, n[a]);
+      printf ("\nA ordem dada é %i: %i", a + 1, n[a]);
     }
 
   for (b = v; b > 0; --b)
     {
-      printf ("\nA ordem inversa C) %i: %i", b, n[b]);
+      printf ("\nA ordem inversa é %i: %i", b, n[b]);
     }
 
   return 0;
