@@ -2,8 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define v 5
-int
-main ()
+int main ()
 {
   setlocale (LC_ALL, "portuguese_Brazil");
   int n[v], a, b;
