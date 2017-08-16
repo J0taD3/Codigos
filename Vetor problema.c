@@ -1,7 +1,7 @@
 #include <locale.h>
 #include <stdio.h>
 #include <stdlib.h>
-#define v 5
+#define v 20
 int main ()
 {
   setlocale (LC_ALL, "portuguese_Brazil");
@@ -18,9 +18,11 @@ int main ()
       printf ("\nA ordem dada é %i: %i", a + 1, n[a]);
     }
 
-  for (b = v; b > 0; --b)
+    printf("\n");
+    
+  for (b = (v-1); b >= 0; --b)
     {
-      printf ("\nA ordem inversa é %i: %i", b, n[b]);
+      printf ("\nA ordem inversa é %i: %i", b+1, n[b]);
     }
 
   return 0;
