@@ -20,6 +20,7 @@ int main () {
 	}	
 	
 	
+	printf("\t\tDiagonal Secundária")
     	for(a=0;a<m;a++){
 	      for(b=0;b<n;b++){
 	          if (b==(n-1-a)){
