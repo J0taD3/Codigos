@@ -13,6 +13,7 @@ int main () {
 			scanf("%i",&c[a][b]);
 		}
 	}
+	printf("\t\tConfira sua matriz");
 	for(a=0;a<m;a++){
 		for(b=0;b<n;b++){
 			printf("\n Para [%i] [%i]: %i.",a+1, b+1,c[a][b]);
@@ -20,7 +21,7 @@ int main () {
 	}	
 	
 	
-	printf("\t\tDiagonal Secundária")
+	printf("\t\tDiagonal Secundária");
     	for(a=0;a<m;a++){
 	      for(b=0;b<n;b++){
 	          if (b==(n-1-a)){
