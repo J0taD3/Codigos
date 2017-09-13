@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
-#define m 5
-#define n 5
+#define m 3
+#define n 3
 
 int main () {
 	setlocale(LC_ALL, "portuguese_Brazil");
