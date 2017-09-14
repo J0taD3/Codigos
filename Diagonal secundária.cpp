@@ -2,8 +2,7 @@
 #include <locale.h>
 #define m 3
 
-int matriz ( int c[m][m]){
-    setlocale(LC_ALL, "portuguese_Brazil");
+int matriz ( int c[m][m]){  
     int a, b;
     printf("\t\tConfira sua matriz\n");
 	for(a=0;a<m;a++){
@@ -15,9 +14,8 @@ int matriz ( int c[m][m]){
 }
 
 int digsec ( int c[m][m]){
-    setlocale(LC_ALL, "portuguese_Brazil");
     int a, b;
-    printf("\t\tDiagonal Secundária\n");
+    printf("\t\tDiagonal SecundÃ¡ria\n");
     	for(a=0;a<m;a++){
 	      for(b=0;b<m;b++){
 	          if (b==(m-1-a)){
@@ -33,13 +31,13 @@ main () {
 	for(l=0;l<m;l++){
 		printf("\n\t\t Preencha a linha %i: \n",l+1);
 		for(p=0;p<m;p++){
-			printf("Dê um valor pra coluna %i: ",p+1);
+			printf("DÃª um valor pra coluna %i: ",p+1);
 			scanf("%i",&c[l][p]);
 		}
 	}
-	
+	printf("\n");
     matriz (c);
+    printf("\n");
     digsec (c);
 return 0;
 } 
-
