@@ -9,7 +9,7 @@ int matriz ( int c[m][m]){
 		for(b=0;b<m;b++){
 			printf("\t |%i|",c[a][b]);
 		}
-		printf("\n");
+	  printf("\n");
 	}	
 }
 
@@ -19,7 +19,7 @@ int digsec ( int c[m][m]){
     	for(a=0;a<m;a++){
 	      for(b=0;b<m;b++){
 	          if (b==(m-1-a)){
-	         printf(" |%i|", c[a][b]);
+	          printf(" |%i|", c[a][b]);
 	         }
 	     } 
     printf("\n");
@@ -35,9 +35,9 @@ main () {
 			scanf("%i",&c[l][p]);
 		}
 	}
-	printf("\n");
+printf("\n");
     matriz (c);
-    printf("\n");
+printf("\n");
     digsec (c);
 return 0;
 } 
